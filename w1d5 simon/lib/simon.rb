@@ -38,7 +38,6 @@ class Simon
   end
 
   def require_sequence
-
     puts "Enter colors one at a time"
     seq.each do |color|
       guess = gets.chomp
